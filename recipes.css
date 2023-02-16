@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+main{
+    padding: 16px;
+}
+footer{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+img{
+    height: 200px;
+}
+nav{
+    border-bottom: 1px solid black;
+}
