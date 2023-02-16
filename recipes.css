@@ -1,3 +1,6 @@
+*{
+    background-color: bisque;
+}
 body {
     padding: 0px;
     margin: 0px
@@ -7,11 +10,21 @@ main{
 }
 footer{
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 0px;
 }
 img{
     height: 200px;
+    border: outset 4px rgb(98, 60, 9);
+    box-shadow: inset;
 }
 nav{
     border-bottom: 1px solid black;
+}
+table{
+    border-top: outset 5px rgb(98, 60, 9);
+    border-left: outset 5px rgb(98, 60, 9);
+    border-right: outset 5px rgb(98, 60, 9);
+    border-bottom: inset 5px rgb(104, 97, 80);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
