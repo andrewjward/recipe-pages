@@ -1,6 +1,12 @@
 *{
     background-color: bisque;
 }
+h1{
+    color: rgb(191, 141, 141);
+}
+h2{
+    color: rgb(175, 120, 81);
+}
 body {
     padding: 0px;
     margin: 0px
@@ -8,17 +14,21 @@ body {
 main{
     padding: 16px;
 }
+div{
+    color: rgb(100, 63, 36);
+}
 footer{
     padding-top: 24px;
     padding-bottom: 0px;
 }
 img{
     height: 200px;
-    border: outset 4px rgb(98, 60, 9);
+    border: groove 4px rgb(98, 60, 9);
     box-shadow: inset;
+    border-radius: 20%;
 }
 nav{
-    border-bottom: 1px solid black;
+    border-bottom: 10px solid cornflowerblue;
 }
 table{
     border-top: outset 5px rgb(98, 60, 9);
@@ -27,4 +37,44 @@ table{
     border-bottom: inset 5px rgb(104, 97, 80);
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+}
+#grid-for-main{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .item-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+  .item-c {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 3;
+  }
+    .for-header{
+    background-color: rgb(191, 141, 141);
+    color: aliceblue;
+    padding: 50px 20px;
+}
+footer{
+    background-color: rgb(191, 141, 141);
+    padding: 50px;
+    padding-left: 20px;
+    border-top: 10px solid cornflowerblue;
+}
+a{
+    color: green;
+    background-color: blanchedalmond;
+}
+.checked{
+    color: rgb(233, 189, 106);
 }
